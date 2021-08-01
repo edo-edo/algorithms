@@ -26,6 +26,13 @@
 *.a
 *.lib
 
+#editor
+.idea
+
+#runner
+cmake-build-debug
+CMakeLists.txt
+
 # Executables
 *.exe
 *.out
