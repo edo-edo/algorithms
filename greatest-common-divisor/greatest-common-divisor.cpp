@@ -13,7 +13,7 @@ int main() {
     int x, y;
     cout << "Enter a first number: ";
     cin >> x;
-    cout << "Enter a first second: ";
+    cout << "Enter a second number: ";
     cin >> y;
     cout << "Answer is: " << gcd(x, y);
 }
