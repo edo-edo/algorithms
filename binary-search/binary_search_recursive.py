@@ -1,6 +1,6 @@
 
 def binary_search(element, low, high, elements):
-    if high >= low:
+    if low <= high:
         mid = low + (high - low) // 2
         if element < elements[mid]:
             return binary_search(element, low, high - 1, elements)
